@@ -1,0 +1,44 @@
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+set current schema TPCDS
+DB20000I  The SQL command completed successfully.
+
+ALTER TABLE TPCDS.CUSTOMER ADD COLUMN C_CUSTOMER_SK2 INT
+DB20000I  The SQL command completed successfully.
+
+UPDATE TPCDS.CUSTOMER SET C_CUSTOMER_SK2 = C_CUSTOMER_SK + MOD(C_CUSTOMER_SK,3)
+DB20000I  The SQL command completed successfully.
+
+ALTER TABLE TPCDS.CUSTOMER_ADDRESS ADD COLUMN CA_ADDRESS_SK2 INT
+DB20000I  The SQL command completed successfully.
+
+UPDATE TPCDS.CUSTOMER_ADDRESS SET CA_ADDRESS_SK2 = CA_ADDRESS_SK + MOD(CA_ADDRESS_SK,3)
+DB20000I  The SQL command completed successfully.
+
+ALTER TABLE TPCDS.CUSTOMER_DEMOGRAPHICS ADD COLUMN CD_DEMO_SK2 INT
+DB20000I  The SQL command completed successfully.
+
+UPDATE TPCDS.CUSTOMER_DEMOGRAPHICS SET CD_DEMO_SK2 = CD_DEMO_SK + MOD(CD_DEMO_SK,3)
+DB21034E  The command was processed as an SQL statement because it was not a 
+valid Command Line Processor command.  During SQL processing it returned:
+SQL0964C  The transaction log for the database is full.  SQLSTATE=57011
+
+ALTER TABLE TPCDS.HOUSEHOLD_DEMOGRAPHICS ADD COLUMN HD_DEMO_SK2 INT
+DB20000I  The SQL command completed successfully.
+
+UPDATE TPCDS.HOUSEHOLD_DEMOGRAPHICS SET HD_DEMO_SK2 = HD_DEMO_SK + MOD(HD_DEMO_SK,3)
+DB20000I  The SQL command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+

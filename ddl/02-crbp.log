@@ -1,0 +1,36 @@
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/NT64 11.5.9.0
+ SQL authorization ID   = SMAKA
+ Local database alias   = TPCDS
+
+
+alter bufferpool IBMDEFAULTBP size 1000 
+DB20000I  The SQL command completed successfully.
+
+CREATE BUFFERPOOL BP_16K ALL DBPARTITIONNUMS SIZE 131072 PAGESIZE 16K
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+alter bufferpool IBMDEFAULTBP size 1000 
+DB20000I  The SQL command completed successfully.
+
+CREATE BUFFERPOOL BP_16K ALL DBPARTITIONNUMS SIZE 131072 PAGESIZE 16K
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+

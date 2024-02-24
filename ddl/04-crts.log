@@ -1,0 +1,90 @@
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/NT64 11.5.9.0
+ SQL authorization ID   = SMAKA
+ Local database alias   = TPCDS
+
+
+CREATE TEMPORARY TABLESPACE temp16k PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+CREATE USER TEMPORARY TABLESPACE usertemp16k PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+CREATE TABLESPACE ts_pd_data_001 PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+CREATE TABLESPACE ts_pd_indx_001 PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+CREATE TABLESPACE ts_sd_small_001 PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+commit work
+DB20000I  The SQL command completed successfully.
+
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/NT64 11.5.9.0
+ SQL authorization ID   = SMAKA
+ Local database alias   = TPCDS
+
+
+drop tablespace tempspace1
+DB20000I  The SQL command completed successfully.
+
+commit work
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+CREATE TEMPORARY TABLESPACE temp16k PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+CREATE USER TEMPORARY TABLESPACE usertemp16k PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+CREATE TABLESPACE ts_pd_data_001 PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+CREATE TABLESPACE ts_pd_indx_001 PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+CREATE TABLESPACE ts_sd_small_001 PAGESIZE 16K BUFFERPOOL BP_16K
+DB20000I  The SQL command completed successfully.
+
+commit work
+DB20000I  The SQL command completed successfully.
+
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+drop tablespace tempspace1
+DB20000I  The SQL command completed successfully.
+
+commit work
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+

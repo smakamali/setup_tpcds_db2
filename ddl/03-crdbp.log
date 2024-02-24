@@ -1,0 +1,24 @@
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+create database partition group PDPG on dbpartitionnums (1 TO 2)
+DB21034E  The command was processed as an SQL statement because it was not a 
+valid Command Line Processor command.  During SQL processing it returned:
+SQL0266N  The specified member number or database partition number "1" is not 
+valid.  SQLSTATE=42729
+
+create database partition group SDPG on dbpartitionnum (0)
+DB20000I  The SQL command completed successfully.
+
+commit work
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+

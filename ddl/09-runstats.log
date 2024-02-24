@@ -1,0 +1,624 @@
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+runstats on table tpcds.call_center with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_page with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer_address with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer_demographics with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.date_dim with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.household_demographics with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.income_band with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.inventory with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.item with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.promotion with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.reason with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.ship_mode with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.time_dim with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.warehouse with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_page with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_site with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+runstats on table tpcds.call_center with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_page with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer_address with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer_demographics with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.date_dim with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.household_demographics with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.income_band with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.inventory with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.item with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.promotion with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.reason with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.ship_mode with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.time_dim with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.warehouse with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_page with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_site with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+runstats on table tpcds.call_center with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_page with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer_address with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer_demographics with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.date_dim with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.household_demographics with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.income_band with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.inventory with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.item with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.promotion with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.reason with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.ship_mode with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.time_dim with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.warehouse with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_page with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_site with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+
+connect to tpcds
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+runstats on table tpcds.call_center with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_page with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.catalog_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer_address with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.customer_demographics with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.date_dim with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.household_demographics with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.income_band with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.inventory with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.item with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.promotion with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.reason with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.ship_mode with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.store_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.time_dim with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.warehouse with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_page with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_returns with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_sales with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+runstats on table tpcds.web_site with distribution and sampled detailed indexes all
+DB20000I  The RUNSTATS command completed successfully.
+
+commit
+DB20000I  The SQL command completed successfully.
+
+connect reset
+DB20000I  The SQL command completed successfully.
+

@@ -1,0 +1,50 @@
+create database tpcds AUTOMATIC STORAGE YES  PAGESIZE 16384 AUTOCONFIGURE APPLY NONE
+DB20000I  The CREATE DATABASE command completed successfully.
+
+UPDATE DB CFG FOR TPCDS USING LOGPRIMARY 100
+DB20000I  The UPDATE DATABASE CONFIGURATION command completed successfully.
+
+UPDATE DB CFG FOR TPCDS USING SORTHEAP 1000 BUFFPAGE 20000
+SQL1482W  The BUFFPAGE parameter will only be used if one of the buffer pools 
+is defined with a size of -1.
+
+UPDATE DB CFG FOR TPCDS USING AUTO_CG_STATS ON
+DB20000I  The UPDATE DATABASE CONFIGURATION command completed successfully.
+
+CONNECT TO TPCDS
+
+   Database Connection Information
+
+ Database server        = DB2/NT64 11.5.9.0
+ SQL authorization ID   = SMAKA
+ Local database alias   = TPCDS
+
+
+CONNECT RESET
+DB20000I  The SQL command completed successfully.
+
+create database tpcds AUTOMATIC STORAGE YES  PAGESIZE 16384 AUTOCONFIGURE APPLY NONE
+DB20000I  The CREATE DATABASE command completed successfully.
+
+UPDATE DB CFG FOR TPCDS USING LOGPRIMARY 100
+DB20000I  The UPDATE DATABASE CONFIGURATION command completed successfully.
+
+UPDATE DB CFG FOR TPCDS USING SORTHEAP 1000 BUFFPAGE 20000
+SQL1482W  The BUFFPAGE parameter will only be used if one of the buffer pools 
+is defined with a size of -1.
+
+UPDATE DB CFG FOR TPCDS USING AUTO_CG_STATS ON
+DB20000I  The UPDATE DATABASE CONFIGURATION command completed successfully.
+
+CONNECT TO TPCDS
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.8.0
+ SQL authorization ID   = DB2INST1
+ Local database alias   = TPCDS
+
+
+CONNECT RESET
+DB20000I  The SQL command completed successfully.
+
