@@ -1,3 +1,7 @@
+connect to tpcds;
+
+set current schema TPCDS;
+
 ALTER TABLE "TPCDS"."CALL_CENTER" 
 	ADD CONSTRAINT "FK1" FOREIGN KEY
 		("CC_CLOSED_DATE_SK")
